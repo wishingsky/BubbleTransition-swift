@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BC388131B53852C00032EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC388121B53852C00032EBA /* AppDelegate.swift */; };
+		4BC388151B53852C00032EBA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC388141B53852C00032EBA /* MasterViewController.swift */; };
+		4BC388171B53852C00032EBA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC388161B53852C00032EBA /* DetailViewController.swift */; };
+		4BC3881C1B53852C00032EBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC3881B1B53852C00032EBA /* Images.xcassets */; };
+		4BC3881F1B53852C00032EBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BC3881D1B53852C00032EBA /* LaunchScreen.xib */; };
+		4BC3882B1B53852C00032EBA /* BubbleTransition_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3882A1B53852C00032EBA /* BubbleTransition_swiftTests.swift */; };
+		4BC388351B539DA700032EBA /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC388341B539DA700032EBA /* BubbleTransition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BC388251B53852C00032EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BC388051B53852C00032EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC3880C1B53852C00032EBA;
+			remoteInfo = "BubbleTransition-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BC3880D1B53852C00032EBA /* BubbleTransition-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BubbleTransition-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC388111B53852C00032EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC388121B53852C00032EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BC388141B53852C00032EBA /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		4BC388161B53852C00032EBA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4BC3881B1B53852C00032EBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BC3881E1B53852C00032EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4BC388241B53852C00032EBA /* BubbleTransition-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BubbleTransition-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC388291B53852C00032EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC3882A1B53852C00032EBA /* BubbleTransition_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTransition_swiftTests.swift; sourceTree = "<group>"; };
+		4BC388341B539DA700032EBA /* BubbleTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTransition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BC3880A1B53852C00032EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC388211B53852C00032EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BC388041B53852C00032EBA = {
+			isa = PBXGroup;
+			children = (
+				4BC3880F1B53852C00032EBA /* BubbleTransition-swift */,
+				4BC388271B53852C00032EBA /* BubbleTransition-swiftTests */,
+				4BC3880E1B53852C00032EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BC3880E1B53852C00032EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BC3880D1B53852C00032EBA /* BubbleTransition-swift.app */,
+				4BC388241B53852C00032EBA /* BubbleTransition-swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BC3880F1B53852C00032EBA /* BubbleTransition-swift */ = {
+			isa = PBXGroup;
+			children = (
+				4BC388121B53852C00032EBA /* AppDelegate.swift */,
+				4BC388141B53852C00032EBA /* MasterViewController.swift */,
+				4BC388161B53852C00032EBA /* DetailViewController.swift */,
+				4BC388341B539DA700032EBA /* BubbleTransition.swift */,
+				4BC3881B1B53852C00032EBA /* Images.xcassets */,
+				4BC3881D1B53852C00032EBA /* LaunchScreen.xib */,
+				4BC388101B53852C00032EBA /* Supporting Files */,
+			);
+			path = "BubbleTransition-swift";
+			sourceTree = "<group>";
+		};
+		4BC388101B53852C00032EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BC388111B53852C00032EBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BC388271B53852C00032EBA /* BubbleTransition-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BC3882A1B53852C00032EBA /* BubbleTransition_swiftTests.swift */,
+				4BC388281B53852C00032EBA /* Supporting Files */,
+			);
+			path = "BubbleTransition-swiftTests";
+			sourceTree = "<group>";
+		};
+		4BC388281B53852C00032EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BC388291B53852C00032EBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BC3880C1B53852C00032EBA /* BubbleTransition-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC3882E1B53852C00032EBA /* Build configuration list for PBXNativeTarget "BubbleTransition-swift" */;
+			buildPhases = (
+				4BC388091B53852C00032EBA /* Sources */,
+				4BC3880A1B53852C00032EBA /* Frameworks */,
+				4BC3880B1B53852C00032EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BubbleTransition-swift";
+			productName = "BubbleTransition-swift";
+			productReference = 4BC3880D1B53852C00032EBA /* BubbleTransition-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BC388231B53852C00032EBA /* BubbleTransition-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC388311B53852C00032EBA /* Build configuration list for PBXNativeTarget "BubbleTransition-swiftTests" */;
+			buildPhases = (
+				4BC388201B53852C00032EBA /* Sources */,
+				4BC388211B53852C00032EBA /* Frameworks */,
+				4BC388221B53852C00032EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BC388261B53852C00032EBA /* PBXTargetDependency */,
+			);
+			name = "BubbleTransition-swiftTests";
+			productName = "BubbleTransition-swiftTests";
+			productReference = 4BC388241B53852C00032EBA /* BubbleTransition-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BC388051B53852C00032EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = weixiaoyun;
+				TargetAttributes = {
+					4BC3880C1B53852C00032EBA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4BC388231B53852C00032EBA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4BC3880C1B53852C00032EBA;
+					};
+				};
+			};
+			buildConfigurationList = 4BC388081B53852C00032EBA /* Build configuration list for PBXProject "BubbleTransition-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BC388041B53852C00032EBA;
+			productRefGroup = 4BC3880E1B53852C00032EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BC3880C1B53852C00032EBA /* BubbleTransition-swift */,
+				4BC388231B53852C00032EBA /* BubbleTransition-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BC3880B1B53852C00032EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC3881F1B53852C00032EBA /* LaunchScreen.xib in Resources */,
+				4BC3881C1B53852C00032EBA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC388221B53852C00032EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BC388091B53852C00032EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC388351B539DA700032EBA /* BubbleTransition.swift in Sources */,
+				4BC388171B53852C00032EBA /* DetailViewController.swift in Sources */,
+				4BC388151B53852C00032EBA /* MasterViewController.swift in Sources */,
+				4BC388131B53852C00032EBA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC388201B53852C00032EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC3882B1B53852C00032EBA /* BubbleTransition_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BC388261B53852C00032EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BC3880C1B53852C00032EBA /* BubbleTransition-swift */;
+			targetProxy = 4BC388251B53852C00032EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BC3881D1B53852C00032EBA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC3881E1B53852C00032EBA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BC3882C1B53852C00032EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BC3882D1B53852C00032EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC3882F1B53852C00032EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BubbleTransition-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BC388301B53852C00032EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BubbleTransition-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BC388321B53852C00032EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BubbleTransition-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleTransition-swift.app/BubbleTransition-swift";
+			};
+			name = Debug;
+		};
+		4BC388331B53852C00032EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BubbleTransition-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleTransition-swift.app/BubbleTransition-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BC388081B53852C00032EBA /* Build configuration list for PBXProject "BubbleTransition-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC3882C1B53852C00032EBA /* Debug */,
+				4BC3882D1B53852C00032EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC3882E1B53852C00032EBA /* Build configuration list for PBXNativeTarget "BubbleTransition-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC3882F1B53852C00032EBA /* Debug */,
+				4BC388301B53852C00032EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BC388311B53852C00032EBA /* Build configuration list for PBXNativeTarget "BubbleTransition-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC388321B53852C00032EBA /* Debug */,
+				4BC388331B53852C00032EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BC388051B53852C00032EBA /* Project object */;
+}
