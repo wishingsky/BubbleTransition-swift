@@ -159,6 +159,8 @@
 		4BC388051B53852C00032EBA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = weixiaoyun;
 				TargetAttributes = {
@@ -407,6 +409,7 @@
 				4BC388301B53852C00032EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BC388311B53852C00032EBA /* Build configuration list for PBXNativeTarget "BubbleTransition-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +418,7 @@
 				4BC388331B53852C00032EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

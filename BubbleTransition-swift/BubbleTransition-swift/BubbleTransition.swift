@@ -24,10 +24,11 @@ class LayerAnimator : NSObject {
         self.caAnimation?.delegate = self
         self.complitionBlock = block;
         
-        self.animLayer?.addAnimation(self.caAnimation, forKey: "anim")
+        self.animLayer?.addAnimation(self.caAnimation!, forKey: "anim")
     }
     
-    override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
+    override func animationDidStop(anim: CAAnimation, finished flag: Bool) {
+        self.caAnimation?.delegate = nil
         self.complitionBlock?()
     }
 }
@@ -45,7 +46,7 @@ public class BubbleTransition: NSObject, UIViewControllerAnimatedTransitioning {
     private var maskLayer: CAShapeLayer! = CAShapeLayer()
     
     // UIViewControllerAnimatedTransitioning
-    public func transitionDuration(transitionContext: UIViewControllerContextTransitioning) -> NSTimeInterval {
+    public func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
         return duration
     }
     
@@ -57,7 +58,7 @@ public class BubbleTransition: NSObject, UIViewControllerAnimatedTransitioning {
             presentedController.view.backgroundColor = bubbleColor;
             
             let fromViewController = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)!
-            containerView.insertSubview(presentedController.view, aboveSubview: fromViewController.view)
+            containerView!.insertSubview(presentedController.view, aboveSubview: fromViewController.view)
             
             self.bubblePresentView(presentedController.view, fromRect: self.startRect, completeBlock: { () -> Void in
                 transitionContext.completeTransition(true)
