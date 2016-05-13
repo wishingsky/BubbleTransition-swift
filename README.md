@@ -1,2 +1,2 @@
 # BubbleTransition-swift
-![Preview](https://github.com/wishingsky/BubbleTransition-swift/master/bubble.gif)
+![Preview](https://github.com/wishingsky/BubbleTransition-swift/blob/master/bubble.gif)
